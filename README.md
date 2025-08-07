@@ -1,20 +1,27 @@
 # Postman
 
-Repositorio para el curso de automatización de APIs con Postman y Newman.
+![Licencia](https://img.shields.io/badge/licencia-TheQAHub-green)
+![Postman](https://img.shields.io/badge/Postman-10.24.27-orange)
+![Express](https://img.shields.io/badge/Express-5.1.0-blue)
+![Versión](https://img.shields.io/badge/Versión-Mayo_2025-yellowgreen)
+![Plataforma](https://img.shields.io/badge/OS-Linux_x64-lightgrey)
+
+Repositorio oficial del curso **Postman y Newman** creado por TheQAHub.  
+Aquí aprenderás a automatizar pruebas de APIs REST usando Postman, integrarlas en pipelines con Newman y a montar tu propia API local para practicar.
 
 ---
 
-## 💻 Tecnologías y versiones
+## 💻 Tecnologías y versiones utilizadas
 
-| Herramienta | Versión |
-|------------|---------|
-| **Postman** | 10.24.27 |
-| **UI version** | 10.24.27-ui-240731-0944 |
-| **Desktop platform** | 10.24.26 |
-| **Arquitectura** | x64 |
-| **Sistema Operativo** | Linux 6.8.0-65-generic |
-| **Node.js (para API local)** | La versión que tengas instalada |
-| **Express** | ^5.1.0 |
+| Herramienta         | Versión                                  |
+|---------------------|-------------------------------------------|
+| **Postman**         | 10.24.27                                  |
+| **UI version**      | 10.24.27-ui-240731-0944                   |
+| **Desktop platform**| 10.24.26                                  |
+| **Arquitectura**    | x64                                       |
+| **Sistema Operativo** | Linux 6.8.0-65-generic                 |
+| **Node.js**         | La que tengas instalada localmente        |
+| **Express**         | ^5.1.0                                     |
 
 ---
 
@@ -24,26 +31,34 @@ Repositorio para el curso de automatización de APIs con Postman y Newman.
 POSTMAN/
 ├── api-theqahub/         # API creada con Express para pruebas de Postman
 │   ├── node_modules/
-│   ├── index.js          # Código de la API
-│   ├── package.json
+│   ├── index.js          # Código principal de la API
+│   ├── package.json      # Dependencias y configuración
 │   └── package-lock.json
-└── README.md             # Este archivo
+└── README.md             # Documentación del proyecto
 ```
 
 ---
 
 ## 🚀 Objetivo del repositorio
 
-Este repositorio está montado como soporte para la serie de vídeos sobre **Postman y Newman**, publicados en el canal [TheQAHub](https://www.youtube.com/@TheQAHub).  
+Este repositorio acompaña a la **serie de vídeos de Postman y Newman** del canal [TheQAHub](https://www.youtube.com/@TheQAHub).  
+Está diseñado para enseñarte a:
 
-Incluye una API simulada con Express (`api-theqahub`) que servirá para practicar y automatizar pruebas REST con los métodos `GET`, `POST`, `PUT` y `DELETE`.
-
-Próximamente se incluirán:
-
-- Colecciones de Postman listas para importar.
-- Scripts de test automatizados.
-- Integración con Newman para ejecución por terminal y CI/CD.
+- Montar y consumir una API REST localmente con Express.
+- Comprender los métodos `GET`, `POST`, `PUT` y `DELETE`.
+- Usar Postman para crear colecciones de pruebas.
+- Automatizar las pruebas con scripts en Postman.
+- Ejecutar pruebas automáticamente desde la terminal con **Newman**.
+- Integrar todo en un pipeline de CI/CD.
 
 ---
 
-> Este repositorio está en desarrollo activo. Cada lección irá acompañada de commits y actualizaciones.
+## 📌 Estado del proyecto
+
+📦 Repositorio activo.  
+📚 Se añadirán nuevas lecciones y pruebas con cada vídeo.  
+✅ Ideal para perfiles QA, testers manuales o desarrolladores que quieran automatizar validaciones de APIs.
+
+---
+
+> Si encuentras errores o quieres contribuir, ¡pull requests bienvenidos!
