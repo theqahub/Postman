@@ -3,7 +3,7 @@
 ![Licencia](https://img.shields.io/badge/licencia-TheQAHub-green)
 ![Postman](https://img.shields.io/badge/Postman-10.24.27-orange)
 ![Express](https://img.shields.io/badge/Express-5.1.0-blue)
-![Versión](https://img.shields.io/badge/Versión-Mayo_2025-yellowgreen)
+![Versión](https://img.shields.io/badge/Versión-Agosto_2025-yellowgreen)
 ![Plataforma](https://img.shields.io/badge/OS-Linux_x64-lightgrey)
 
 Repositorio oficial del curso **Postman y Newman** creado por TheQAHub.  
@@ -45,7 +45,7 @@ Este repositorio acompaña a la **serie de vídeos de Postman y Newman** del can
 Está diseñado para enseñarte a:
 
 - Montar y consumir una API REST localmente con Express.
-- Comprender los métodos `GET`, `POST`, `PUT` y `DELETE`.
+- Comprender los métodos `GET`, `POST`, `PUT`, `PATCH`, y `DELETE`.
 - Usar Postman para crear colecciones de pruebas.
 - Automatizar las pruebas con scripts en Postman.
 - Ejecutar pruebas automáticamente desde la terminal con **Newman**.
