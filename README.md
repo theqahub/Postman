@@ -18,10 +18,7 @@ Aquí aprenderás a automatizar pruebas de APIs REST usando Postman, integrarlas
 | **Postman**         | 10.24.27                                  |
 | **UI version**      | 10.24.27-ui-240731-0944                   |
 | **Desktop platform**| 10.24.26                                  |
-| **Arquitectura**    | x64                                       |
-| **Sistema Operativo** | Linux 6.8.0-65-generic                 |
 | **Node.js**         | La que tengas instalada localmente        |
-| **Express**         | ^5.1.0                                     |
 
 ---
 
